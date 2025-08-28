@@ -29,11 +29,19 @@ describe("Saludador", () => {
     //     expect(saludo(nombre, genero)).toBe("Hola, buenas noches bienvenida Luciana");
     // });
 
-    it("deberia pedir la edad y saludar con edad", () => {
+    // it("deberia pedir la edad y saludar con edad", () => {
+    //     const nombre = "Luciana";
+    //     const genero = "F";
+    //     const edad = 20;
+    //     expect(saludo(nombre, genero, edad)).toBe("Hola, buenas noches bienvenida srta Luciana");
+    // });
+
+    it("deberia pedir el idioma y saludar en el idioma", () => {
         const nombre = "Luciana";
         const genero = "F";
-        const edad = 20;
-        expect(saludo(nombre, genero, edad)).toBe("Hola, buenas noches bienvenida srta Luciana");
+        const edad = 40;
+        const idioma = "ES";
+        expect(saludo(nombre, genero, edad)).toBe("Hola, buenas noches bienvenida sra Luciana");
     });
 
 });

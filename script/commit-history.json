@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "95f0304009778199f33c58e80bd7c5d62a07165e",
     "author": "lucianaaaaaaa",
     "commit": {
       "date": "2025-08-28T02:41:46.000Z",
       "message": "feat: Se implemento pedir edad y saludar",
-      "url": "https://github.com/lucianaaaaaaa/Saludador/commit/HEAD"
+      "url": "https://github.com/lucianaaaaaaa/Saludador/commit/95f0304009778199f33c58e80bd7c5d62a07165e"
     },
     "stats": {
       "total": 44,
@@ -90,6 +90,25 @@
       "date": "2025-08-28"
     },
     "coverage": 66.67,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "lucianaaaaaaa",
+    "commit": {
+      "date": "2025-08-28T02:49:23.000Z",
+      "message": "feat: Se implemento pedir idioma",
+      "url": "https://github.com/lucianaaaaaaa/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 80,
+      "additions": 65,
+      "deletions": 15,
+      "date": "2025-08-28"
+    },
+    "coverage": 58.97,
     "test_count": 1,
     "failed_tests": 0,
     "conclusion": "success"

@@ -5,8 +5,9 @@ const areaSaludo = document.getElementById("saludo");
 const nombreUsuario = document.getElementById("nombre_usuario");
 const generoUsuario = document.getElementById("genero_usuario");
 const edadUsuario = document.getElementById("edad_usuario");
+const idiomaUsuario = document.getElementById("idioma_usuario");
 
 
 botonSaludar.addEventListener("click", () => {
-  areaSaludo.textContent = saludo(nombreUsuario.value, generoUsuario.value, edadUsuario.value);
+  areaSaludo.textContent = saludo(nombreUsuario.value, generoUsuario.value, edadUsuario.value, idiomaUsuario.value);
 });
