@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "b060b096fc531545ca6845ef12ded878562bf214",
     "author": "lucianaaaaaaa",
     "commit": {
       "date": "2025-08-28T01:39:25.000Z",
       "message": "feat: Se implemento saludar con Hola",
-      "url": "https://github.com/lucianaaaaaaa/Saludador/commit/HEAD"
+      "url": "https://github.com/lucianaaaaaaa/Saludador/commit/b060b096fc531545ca6845ef12ded878562bf214"
     },
     "stats": {
       "total": 2212,
       "additions": 1112,
       "deletions": 1100,
+      "date": "2025-08-28"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "lucianaaaaaaa",
+    "commit": {
+      "date": "2025-08-28T01:51:42.000Z",
+      "message": "feat: Se implemento pedir nombre y saludar con nombre",
+      "url": "https://github.com/lucianaaaaaaa/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 16,
+      "deletions": 6,
       "date": "2025-08-28"
     },
     "coverage": 100,
