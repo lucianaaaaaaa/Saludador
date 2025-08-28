@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "abe2628f6fb2fe468806d0f2570881956a15c6a1",
     "author": "lucianaaaaaaa",
     "commit": {
       "date": "2025-08-28T01:51:42.000Z",
       "message": "feat: Se implemento pedir nombre y saludar con nombre",
-      "url": "https://github.com/lucianaaaaaaa/Saludador/commit/HEAD"
+      "url": "https://github.com/lucianaaaaaaa/Saludador/commit/abe2628f6fb2fe468806d0f2570881956a15c6a1"
     },
     "stats": {
       "total": 22,
@@ -33,6 +33,25 @@
       "date": "2025-08-28"
     },
     "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "lucianaaaaaaa",
+    "commit": {
+      "date": "2025-08-28T02:11:31.000Z",
+      "message": "feat(src): Se implemento saludar de acuerdo a la hora",
+      "url": "https://github.com/lucianaaaaaaa/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 41,
+      "additions": 34,
+      "deletions": 7,
+      "date": "2025-08-28"
+    },
+    "coverage": 77.78,
     "test_count": 1,
     "failed_tests": 0,
     "conclusion": "success"
