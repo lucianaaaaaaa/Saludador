@@ -23,10 +23,17 @@ describe("Saludador", () => {
     //     expect(saludo(nombre)).toBe(saludoEsperado);
     // });
 
-    it("deberia pedir el genero y saludar con genero", () => {
+    // it("deberia pedir el genero y saludar con genero", () => {
+    //     const nombre = "Luciana";
+    //     const genero = "F";
+    //     expect(saludo(nombre, genero)).toBe("Hola, buenas noches bienvenida Luciana");
+    // });
+
+    it("deberia pedir la edad y saludar con edad", () => {
         const nombre = "Luciana";
         const genero = "F";
-        expect(saludo(nombre, genero)).toBe("Hola, buenas noches bienvenida Luciana");
+        const edad = 20;
+        expect(saludo(nombre, genero, edad)).toBe("Hola, buenas noches bienvenida srta Luciana");
     });
 
 });
