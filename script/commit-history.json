@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6ae46800ba54f28f4829e5aed89c0b8e83d360ce",
     "author": "lucianaaaaaaa",
     "commit": {
       "date": "2025-08-28T02:11:31.000Z",
       "message": "feat(src): Se implemento saludar de acuerdo a la hora",
-      "url": "https://github.com/lucianaaaaaaa/Saludador/commit/HEAD"
+      "url": "https://github.com/lucianaaaaaaa/Saludador/commit/6ae46800ba54f28f4829e5aed89c0b8e83d360ce"
     },
     "stats": {
       "total": 41,
@@ -52,6 +52,25 @@
       "date": "2025-08-28"
     },
     "coverage": 77.78,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "lucianaaaaaaa",
+    "commit": {
+      "date": "2025-08-28T02:26:33.000Z",
+      "message": "feat: Se implemento saludar por genero",
+      "url": "https://github.com/lucianaaaaaaa/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 52,
+      "additions": 35,
+      "deletions": 17,
+      "date": "2025-08-28"
+    },
+    "coverage": 76.92,
     "test_count": 1,
     "failed_tests": 0,
     "conclusion": "success"

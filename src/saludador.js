@@ -2,10 +2,12 @@ const textos = {
   saludo: "Hola",
   dia: "buen día",
   tarde: "buenas tardes",
-  noche: "buenas noches"
+  noche: "buenas noches",
+  F: "bienvenida",
+  M: "bienvenido"
 }
 
-function saludo(nombre) {
+function saludo(nombre, genero) {
     const horaActual = new Date().getHours();
     let saludoTiempo="";
     if (horaActual < 12) {
@@ -15,7 +17,12 @@ function saludo(nombre) {
     } else {
         saludoTiempo = textos.noche;
     }
-
+    if(genero==="F"){
+        nombre = `${textos.F} ${nombre}`;
+    }
+    if(genero==="M"){
+        nombre = `${textos.M} ${nombre}`;
+    }
     return `${textos.saludo}, ${saludoTiempo} ${nombre}`;
 }
 
